@@ -8,7 +8,7 @@ class Cubes {
 
     build() {
         let cubeGeo = new THREE.BoxGeometry();
-        let cubeMat = new THREE.MeshBasicMaterial({color: this.color, wireframe: false});
+        let cubeMat = new THREE.MeshLambertMaterial({color: this.color, wireframe: false});
         let cube = new THREE.Mesh(cubeGeo, cubeMat);
         scene.add(cube);
         cube.position.x = this.x;

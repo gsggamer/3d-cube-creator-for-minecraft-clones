@@ -4,7 +4,7 @@ const HEIGHT = window.innerHeight;
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0xddddff);
 const camera = new THREE.PerspectiveCamera(65, WIDTH/HEIGHT, 1, 800);
-camera.position.z = 4;
+camera.position.z = 7;
 
 const ambLight = new THREE.AmbientLight(0xffffff);
 const pointLight = new THREE.PointLight(0xffffff);
