@@ -6,7 +6,7 @@ class Clouds {
     }
 
     build() {
-        let cloudGeo = new THREE.BoxGeometry(1, 0.6, 2);
+        let cloudGeo = new THREE.BoxGeometry(1, 0.35, 2);
         let cloudMat = new THREE.MeshLambertMaterial({
             color: 0xdedede,
             wireframe: false
